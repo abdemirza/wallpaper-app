@@ -7,7 +7,7 @@ import Wallpaper from './Wallpaper';
 
 const Wallpapers = ({data,onPress}) => {
   const renderItem = ({ item }) => (
-    <Wallpaper imageData={item} onPress={onPress} />
+    <Wallpaper  imageData={item} onPress={onPress} />
   );
 
   return (
